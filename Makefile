@@ -10,7 +10,7 @@ all:
 	$(COMPILE) $(CFLAGS) $(SRC) -o $(EXEC)
 
 run: all
-	./$(EXEC)
+	sudo ./$(EXEC)
 
 clean:
 	$(RM) $(EXEC)
